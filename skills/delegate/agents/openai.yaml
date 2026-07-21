@@ -1,0 +1,4 @@
+interface:
+  display_name: "Delegate"
+  short_description: "Drive engineering work through verified subagent slices"
+  default_prompt: "Use $delegate to execute this engineering effort through grounded, verified subagent slices."

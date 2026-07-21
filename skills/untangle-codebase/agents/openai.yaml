@@ -1,0 +1,4 @@
+interface:
+  display_name: "Untangle Codebase"
+  short_description: "Reshape tangled code into cohesive, low-coupling modules"
+  default_prompt: "Use $untangle-codebase to safely restructure this tangled area into cohesive, low-coupling modules."
