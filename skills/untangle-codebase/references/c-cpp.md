@@ -65,7 +65,7 @@ When two modules include each other, do not merely add forward declarations. Ide
 
 - Move a neutral value type to the module that owns its invariant, or to a deliberately stable lower-level module if neither side owns it.
 - Move an operation next to the representation it interprets.
-- Invert a real external dependency through a narrow function table, abstract base, or callable only when at least two adapters justify the seam.
+- Invert a dependency through a narrow function table, abstract base, or callable when this keeps volatile or higher-level details out of the owning module. One implementation can suffice; name the knowledge or dependency edge the interface removes.
 - Merge modules when the cycle reveals one cohesive responsibility rather than inventing an interface between inseparable halves.
 
 ## C/C++ examples
